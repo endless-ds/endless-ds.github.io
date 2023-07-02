@@ -15,7 +15,7 @@
 ================================================================== */
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Consolas', Arial, sans-serif;
   font-size: var(--normal);
   color: var(--text-color);
 }
@@ -67,7 +67,7 @@ html {
   margin-top: 6em;
   border-top: 1px solid lightgrey;
   padding-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 /* ==================================================================

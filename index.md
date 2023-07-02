@@ -1,34 +1,15 @@
-@def title = "Franklin Sandbox"
+@def title = "endless-ds.github.io"
 @def hasmath = true
 @def hascode = true
 
+&#8287;
+&#8287;
 
-# Franklin syntax sandbox
+**[\col{black}{endless-ds.github.io}](/)**
 
-This page is meant as a sandbox for Franklin Syntax so that you can quickly practice or experience things.
+random musings on topics like: data science, data engineering, finance, political economy, history, historiography, etc
 
-## Sandbox
+---
 
-Write whatever you want here to practice Franklin Syntax:
-
-```julia:./ex1
-using LinearAlgebra, Random
-Random.seed!(135)
-a, b = randn(50), randn(50)
-println(dot(a, b))
-println(sum(ai * bi for (ai, bi) ∈ zip(a, b)))
-```
-
-\output{./ex1}
-
-(yet another example that floating point arithmetics can be complicated).
-
-$$ \forall x \in \R:\quad \scal{x, x} \ge 0 $$
-
-\newcommand{\E}{\mathbb E}
-
-Surely some people remember the ordering, but I always forget:
-
-$$ \varphi(\E[X]) \le \E[\varphi(X)] $$
-
-for $\varphi$ convex.
+* some writings:
+  * 2023-07-02 [Answering Data Science Interview Question Using Monte Carlo: Batting Average](/pages/mc-batting-prob)
