@@ -64,7 +64,7 @@ html {
   font-family: Arial, serif;
   color: #a6a2a0;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 1em;
   border-top: 1px solid lightgrey;
   padding-top: 2em;
   margin-bottom: 3em;
@@ -250,7 +250,7 @@ td {
 }
 
 .franklin-content .img-small img {
-  width: 50%;
+  width: 55%;
   display: block;
   margin-left: auto;
   margin-right: auto;

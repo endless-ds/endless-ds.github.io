@@ -10,7 +10,7 @@
 
 \alignright{ {{date}} }
 
-## Answering Data Science Interview Question Using Monte Carlo: Batting Average
+## {{title}}
 
 so I saw this question a while back on twitter:
 

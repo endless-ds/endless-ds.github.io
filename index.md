@@ -12,4 +12,11 @@ random musings on topics like: data science, data engineering, finance, politica
 ---
 
 * some writings:
+  * 2023-07-13 [How Measurement Error Affects OLS](/pages/ols-measurement-error)
   * 2023-07-02 [Answering Data Science Interview Question Using Monte Carlo: Batting Average](/pages/mc-batting-prob)
+
+&#8287;
+
+<!-- ~~~
+<img src="/assets/sleep_well_beast.jpg">
+~~~ -->
