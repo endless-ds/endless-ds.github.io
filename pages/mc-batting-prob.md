@@ -15,45 +15,36 @@
 so I saw this question a while back on twitter:
 
 ~~~
-<div class="row">
-  <div class="container">
-    <div style="text-align:center;">  
-    <img class="center" src="/assets/mc-batting-prob/phdemetri_interview_q.png">
-        <snap style="color:grey;">
+<img src="/assets/mc-batting-prob/phdemetri_interview_q.png">
+<div style="text-align: center;">
+    <a href="https://twitter.com/PhDemetri/status/1673917856055001090" target="_blank" style="color:grey;">
         https://twitter.com/PhDemetri/status/1673917856055001090
-        </snap>
-    </div>
-  </div>
+    </a>
 </div>
 ~~~
 
 it says not to use a simulation, but we're going to use it because:
 ~~~
-<div class="row">
-  <div class="container">
-    <div style="text-align: center;">  
-    <img class="center" src="/assets/mc-batting-prob/fistofthenorthstar.png">
-    </div>
-  </div>
+<div class="img-small">
+    <img src="/assets/mc-batting-prob/fistofthenorthstar.png">
 </div>
 ~~~
+but also:
 - frankly I find it easier to think literally than with abstractions
 - in this day and age with the amount of processing power we have, thinking by approximations isn't obligatory anymore. and in my view the statistical pedagogy hasn't caught up to that, disservicing learners who think better with simulations
-- some replies from working data scientists make me feel vindicated a bit  
+- some replies from working data scientists make me feel a bit vindicated
 ~~~
-<div class="row">
-  <div class="container">
-      <div style="text-align: center;"> 
-        <img class="center" src="/assets/mc-batting-prob/mdneuzerling_reply.png">
-            <snap style="color:grey;">
-            https://twitter.com/mdneuzerling/status/1673927424910974977
-            </snap>
-        <img class="center" src="/assets/mc-batting-prob/ajordannafa_reply.png">
-            <snap style="color:grey;">
-            https://twitter.com/ajordannafa/status/1673926343849902080
-            </snap>
-    </div>
-  </div>
+<img src="/assets/mc-batting-prob/mdneuzerling_reply.png">
+<div style="text-align: center;">
+    <a href="https://twitter.com/mdneuzerling/status/1673927424910974977" target="_blank" style="color:grey;">
+        https://twitter.com/mdneuzerling/status/1673927424910974977
+    </a>
+</div>
+<img src="/assets/mc-batting-prob/ajordannafa_reply.png">
+<div style="text-align: center;">
+    <a href="https://twitter.com/ajordannafa/status/1673926343849902080" target="_blank" style="color:grey;">
+        https://twitter.com/ajordannafa/status/1673926343849902080
+    </a>
 </div>
 ~~~
 
@@ -90,13 +81,7 @@ plot(x = 1:n,
 ```
 
 ~~~
-<div class="row">
-  <div class="container">
-    <div style="text-align: center;">  
-    <img class="center" src="/assets/mc-batting-prob/mc_plot.svg">
-    </div>
-  </div>
-</div>
+<img src="/assets/mc-batting-prob/mc_plot.svg">
 ~~~
 
 we can see from the graph that the result approaches __0.35__.
@@ -115,7 +100,7 @@ the new mean is $\mu_{1}-\mu_{2} = 12.375-13.5 = -1.125$
 
 the new variance is $\sigma_{1}^{2}+\sigma_{2}^{2} = 8.971875+9.45 = 18.421875$
 
-we can use any cdf function in a programming language to get the solution, or use a cdf table and the z-score if you're using pen & paper (the z-score is $\frac{0-(-1.125)}{\sqrt{18.421875}} \approx -0.26$). both approaches will give you a probability of around __0.4__.
+we can use a cdf function in any programming language to get the solution, or use a cdf table and the z-score if you're using pen & paper (the z-score is $\frac{0-(-1.125)}{\sqrt{18.421875}} \approx -0.26$). both approaches will give you a probability of around __0.4__.
 
 ### hang on a sec...
 
@@ -125,4 +110,17 @@ we can start by presuming confidence in our Monte Carlo simulation, as it was a 
 
 looking around online or in books, it turns out our approximation has a nontrivial issue: we estimated a discrete distribution (Binomial) with a continuous distribution (Normal), so each discrete value in the former is estimated by various values in a continuous interval from the latter.
 
-to correct for this, we can simply subtract 0.5 from our final distribution. so instead of $P(X>0)$, we're looking for $P((X-0.5)>0) -> P(X>0.5)$. plugging it into cdf functions or a cdf table (with the changed z-score of ($\frac{0.5-(-1.125)}{\sqrt{18.421875}} \approx -0.37$) gives us __0.35__, the same as our Monte Carlo simulation.
+to correct for this, we can simply subtract 0.5 from our final distribution. so instead of $P(X>0)$, we're looking for $P((X-0.5)>0) \rightarrow P(X>0.5)$. 
+
+~~~
+<div class="img-small">
+    <img src="/assets/mc-batting-prob/continuity_correction_table.png">
+</div>
+<div style="text-align: center;">
+    <snap style="color:grey;">
+        example of continuity correction for x = 6
+    </snap>
+</div>
+~~~
+
+plugging it into cdf functions or a cdf table (with the changed z-score $\frac{0.5-(-1.125)}{\sqrt{18.421875}} \approx -0.37$) gives us __0.35__, the same as our Monte Carlo simulation.
