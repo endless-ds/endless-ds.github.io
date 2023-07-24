@@ -18,6 +18,8 @@ random musings on topics like: data science, data engineering, finance, politica
 
 &#8287;
 
-<!-- ~~~
-<img src="/assets/sleep_well_beast.jpg">
-~~~ -->
+~~~
+<div class="img-og">
+    <img src="/assets/endless.jpg">
+</div>
+~~~

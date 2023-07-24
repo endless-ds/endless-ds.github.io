@@ -257,6 +257,15 @@ td {
   border-radius: 10px;
 }
 
+.franklin-content .img-og img {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+  }
+
 /* ==================================================================
     KATEX
 ================================================================== */
