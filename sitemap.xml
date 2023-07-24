@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>pages/notes/book-of-why-judea-pearl-2018/index.html</loc>
+    <lastmod>2023-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>pages/mc-batting-prob/index.html</loc>
-    <lastmod>2023-07-15</lastmod>
+    <lastmod>2023-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>pages/ols-measurement-error/index.html</loc>
-    <lastmod>2023-07-15</lastmod>
+    <lastmod>2023-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>index.html</loc>
-    <lastmod>2023-07-15</lastmod>
+    <lastmod>2023-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>pages/backtesting-tale/index.html</loc>
-    <lastmod>2023-07-15</lastmod>
+    <lastmod>2023-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
