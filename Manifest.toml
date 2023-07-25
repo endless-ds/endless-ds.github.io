@@ -135,10 +135,10 @@ uuid = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 version = "2.14.0"
 
 [[deps.LiveServer]]
-deps = ["HTTP", "MIMEs", "Pkg", "Sockets", "Test"]
-git-tree-sha1 = "f84e28cb511e2bf5d5673a9b8b508f02c6894ce6"
+deps = ["HTTP", "LoggingExtras", "MIMEs", "Pkg", "Sockets", "Test"]
+git-tree-sha1 = "24d05efe53436b22a42bf2ae459f47c48b0c2603"
 uuid = "16fef848-5104-11e9-1b77-fb7a48bbb589"
-version = "1.2.6"
+version = "1.2.7"
 
 [[deps.Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
