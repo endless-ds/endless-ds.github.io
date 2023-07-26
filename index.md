@@ -1,14 +1,13 @@
 ~~~
 <!DOCTYPE html>
-<html>
-  <head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <title>endless-ds.github.io</title>
     <meta name="description" content="random musings on topics like: data science, data engineering, finance, political economy, history, historiography, etc">
     <meta name="google-site-verification" content="fkp11r3N6OWYzKe3OAKLI5jZWDUg8V3l5gE2LY_H5vM">
-    <title>endless-ds.github.io</title>
     <!-- <meta name="robots" content="noindex,nofollow"> -->
-  </head>
-</html>
+</head>
 ~~~
 
 @def title = "endless-ds.github.io"
