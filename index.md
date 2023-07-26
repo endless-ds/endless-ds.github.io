@@ -1,3 +1,16 @@
+~~~
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="random musings on topics like: data science, data engineering, finance, political economy, history, historiography, etc">
+    <meta name="google-site-verification" content="fkp11r3N6OWYzKe3OAKLI5jZWDUg8V3l5gE2LY_H5vM">
+    <title>endless-ds.github.io</title>
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+  </head>
+</html>
+~~~
+
 @def title = "endless-ds.github.io"
 @def hasmath = true
 @def hascode = true
