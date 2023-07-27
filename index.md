@@ -23,7 +23,9 @@ random musings on topics like: data science, data engineering, finance, politica
     <img src="/assets/endless.jpg">
 </div>
 ~~~
+
 &#8287;
+
 ~~~
 <div class="img-og">
     <img src="/assets/endless (1).png">
