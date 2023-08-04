@@ -12,7 +12,7 @@ random musings on topics like: data science, data engineering, finance, politica
 ---
 
 * some writings:
-  * 2023-08-04 [End of Quarter Tendency in IDX Composite Index](/pages/eoq-tendency-IDX.md)
+  * 2023-08-04 [End of Quarter Tendency in IDX Composite Index](/pages/eoq-tendency-IDX)
   * 2023-07-15 [A Short Cautionary Tale When Backtesting Strategies](/pages/backtesting-tale)
   * 2023-07-13 [How Measurement Error Affects OLS](/pages/ols-measurement-error)
   * 2023-07-02 [Answering Data Science Interview Question Using Monte Carlo: Batting Average](/pages/mc-batting-prob)
