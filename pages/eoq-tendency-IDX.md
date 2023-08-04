@@ -1,7 +1,7 @@
 @def title = "End of Quarter Tendency in IDX Composite Index"
 @def hasmath = true
 @def hascode = true
-@def date = Date(2023, 8, 1)
+@def date = Date(2023, 8, 4)
 
 &#8287;
 &#8287;
