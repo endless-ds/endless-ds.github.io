@@ -8,9 +8,9 @@
 
 **[\col{black}{cd ..}](/)**
 
-\alignright{ {{date}} }
+**\alignright{ {{date}} }**
 
-## {{title}}
+# {{title}}
 
 Corey Hoffstein, host of one of my favorite podcast Flirting with Models, said if there was only one article on investing he could recommend, it would be this.
 

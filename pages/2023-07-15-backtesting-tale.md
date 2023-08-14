@@ -8,9 +8,9 @@
 
 **[\col{black}{cd ..}](/)**
 
-\alignright{ {{date}} }
+**\alignright{ {{date}} }**
 
-## {{title}}
+# {{title}}
 
 back then, someone on Twitter shared a backtest on using 200-day moving averages (200MA) as a buy/sell signal for the S&P500 compared to simply buying and holding it.
 
@@ -19,7 +19,7 @@ back then, someone on Twitter shared a backtest on using 200-day moving averages
 <img src="/assets/backtesting-tale/robertotalamas_backtest_chart.png">
 <img src="/assets/backtesting-tale/robertotalamas_backtest_code.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/RobertoTalamas/status/1598353728922329089" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/RobertoTalamas/status/1598353728922329089" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/RobertoTalamas/status/1598353728922329089
     </a>
 </div>
@@ -31,7 +31,7 @@ of twitter, or fintwit for short) quote-tweeted it.
 ~~~
 <img src="/assets/backtesting-tale/macrocephalopod_quote.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/macrocephalopod/status/1598573871271235586" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/macrocephalopod/status/1598573871271235586" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/macrocephalopod/status/1598573871271235586
     </a>
 </div>
@@ -39,7 +39,7 @@ of twitter, or fintwit for short) quote-tweeted it.
 
 so what went wrong?
 
-## backtesting (properly) is hard
+## Backtesting (Properly) is Hard
 
 doing data analysis/data mining/statistical inference with market data can seem frictionless. 
 you pull the data, do whatever transforms or comparisons or charts you want, pattern found, edge discovered, model established, and boom: you got a research paper or a empirically tested strategy ready for live trading.
@@ -52,7 +52,7 @@ especially on twitter where cheap dunks are commonplace. and the octopus recogni
 ~~~
 <img src="/assets/backtesting-tale/macrocephalopod_reply.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/macrocephalopod/status/1598579432905637888" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/macrocephalopod/status/1598579432905637888" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/macrocephalopod/status/1598579432905637888
     </a>
 </div>
@@ -67,13 +67,13 @@ case in point:
 ~~~
 <img src="/assets/backtesting-tale/jessicanutt96_reply.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/JessicaNutt96/status/1598583153198776320" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/JessicaNutt96/status/1598583153198776320" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/JessicaNutt96/status/1598583153198776320
     </a>
 </div>
 ~~~
 
-## back to the code
+## Back to the Code
 
 so this is a common mistake in simulations: look-ahead bias.
 it's when a model uses data that shouldn't be available at its time. for example, 

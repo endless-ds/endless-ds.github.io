@@ -8,9 +8,9 @@
 
 **[\col{black}{cd ..}](/)**
 
-\alignright{ {{date}} }
+**\alignright{ {{date}} }**
 
-## {{title}}
+# {{title}}
 
 this is another data science question I saw on twitter:
 

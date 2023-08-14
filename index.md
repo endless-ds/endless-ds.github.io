@@ -5,17 +5,19 @@
 &#8287;
 &#8287;
 
-**[\col{black}{endless-ds.github.io}](/)**
+**[
+    ~~~<span style="color:black; font-size:22px"> {{title}} </span>~~~
+](/)**
 
 random musings on topics like: data science, data engineering, finance, political economy, history, historiography, etc
 
 ---
 
 * some writings:
-  * 2023-08-04 [End of Quarter Tendency in IDX Composite Index](/pages/eoq-tendency-IDX)
-  * 2023-07-15 [A Short Cautionary Tale When Backtesting Strategies](/pages/backtesting-tale)
-  * 2023-07-13 [How Measurement Error Affects OLS](/pages/ols-measurement-error)
-  * 2023-07-02 [Answering Data Science Interview Question Using Monte Carlo: Batting Average](/pages/mc-batting-prob)
+  * 2023-08-04 [\underline{ end of quarter tendency in IDX Composite index }](/pages/2023-08-04-eoq-tendency-IDX)
+  * 2023-07-15 [\underline{ a short cautionary tale when backtesting strategies }](/pages/2023-07-15-backtesting-tale)
+  * 2023-07-13 [\underline{ how measurement error affects OLS }](/pages/2023-07-13-ols-measurement-error)
+  * 2023-07-02 [\underline{ answering data science interview question using Monte Carlo: batting average }](/pages/2023-07-02-mc-batting-prob)
 
 &#8287;
 

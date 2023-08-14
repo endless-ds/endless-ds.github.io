@@ -8,9 +8,9 @@
 
 **[\col{black}{cd ..}](/)**
 
-\alignright{ {{date}} }
+**\alignright{ {{date}} }**
 
-## {{title}}
+# {{title}}
 
 I wanted to investigate a seasonal pattern in my country's stock market that I've heard rumors of. Supposedly, when a quarter's about to end, funds managers and company owners want to show good performance in their holdings, so the stocks get played around by "dealers" to go up.
 

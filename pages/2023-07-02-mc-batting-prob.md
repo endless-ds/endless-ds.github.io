@@ -8,16 +8,16 @@
 
 **[\col{black}{cd ..}](/)**
 
-\alignright{ {{date}} }
+**\alignright{ {{date}} }**
 
-## {{title}}
+# {{title}}
 
 so I saw this question a while back on twitter:
 
 ~~~
 <img src="/assets/mc-batting-prob/phdemetri_interview_q.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/PhDemetri/status/1673917856055001090" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/PhDemetri/status/1673917856055001090" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/PhDemetri/status/1673917856055001090
     </a>
 </div>
@@ -36,13 +36,13 @@ but also:
 ~~~
 <img src="/assets/mc-batting-prob/mdneuzerling_reply.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/mdneuzerling/status/1673927424910974977" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/mdneuzerling/status/1673927424910974977" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/mdneuzerling/status/1673927424910974977
     </a>
 </div>
 <img src="/assets/mc-batting-prob/ajordannafa_reply.png">
 <div style="text-align: center;">
-    <a href="https://twitter.com/ajordannafa/status/1673926343849902080" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/ajordannafa/status/1673926343849902080" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/ajordannafa/status/1673926343849902080
     </a>
 </div>
@@ -50,7 +50,7 @@ but also:
 
 we'll be using Julia for its speed relative to Python. we'll also find the closed form solution after using Monte Carlo.
 
-### Monte Carlo solution
+## Monte Carlo Solution
 since we're using a simulation, we can skip the Normal approximation and calculate using the original distribution, which is Binomial.
 
 we take lots of data points from two Binomial distributions $B(45, 0.275)$ and $B(45, 0.3)$, subtract the former with the latter to get the difference, then count the probability of getting a positive batting difference.
@@ -86,7 +86,7 @@ plot(x = 1:n,
 
 we can see from the graph that the result approaches __0.35__.
 
-### closed form solution
+## Closed Form Solution
 
 now for the closed form solution. a Binomial distribution $B(n,p)$ can be approximated by a Normal distribution $N(np,np(1-p))$.
 
@@ -102,7 +102,7 @@ the new variance is $\sigma_{1}^{2}+\sigma_{2}^{2} = 8.971875+9.45 = 18.421875$
 
 we can use a cdf function in any programming language to get the solution, or use a cdf table and the z-score if you're using pen & paper (the z-score is $\frac{0-(-1.125)}{\sqrt{18.421875}} \approx -0.26$). both approaches will give you a probability of around __0.4__.
 
-### hang on a sec...
+## Hang on a sec...
 
 okay, something's wrong here. our closed form solution gave us __0.4__, the same result Bill James got in the 70s. but our Monte Carlo simulation got us __0.35__. so which one is correct?
 
@@ -117,7 +117,7 @@ to correct for this, we can simply subtract 0.5 from our final distribution. so 
     <img src="/assets/mc-batting-prob/continuity_correction_table.png">
 </div>
 <div style="text-align: center;">
-    <snap style="color:grey;">
+    <snap style="color:grey; font-size: 0.85em;">
         example of continuity correction for x = 6
     </snap>
 </div>

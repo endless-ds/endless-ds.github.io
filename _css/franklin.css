@@ -55,7 +55,8 @@ html {
 
 .franklin-content .page-foot a {
   text-decoration: none;
-  color: #a6a2a0;
+  /* color: #a6a2a0; */
+  color: grey;
   text-decoration: underline;
 }
 
@@ -63,11 +64,12 @@ html {
   font-size: 80%;
   font-family: Arial, serif;
   color: #a6a2a0;
+  /* color: grey; */
   text-align: center;
-  margin-top: 1em;
-  border-top: 1px solid lightgrey;
-  padding-top: 2em;
-  margin-bottom: 3em;
+  margin-top: 2em;
+  border-top: 1.5px solid lightgrey;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 /* ==================================================================
@@ -107,7 +109,7 @@ html {
     TITLES
 ================================================================== */
 
-.franklin-content h1 { font-size: 24px; }
+.franklin-content h1 { font-size: 22px; }
 .franklin-content h2 { font-size: 22px; }
 .franklin-content h3 { font-size: 20px; }
 
@@ -122,14 +124,14 @@ h6 {
 
 .franklin-content h1 {
   padding-bottom: 0.5em;
-  border-bottom: 3px double lightgrey;
+  border-bottom: 3.1px double lightgrey;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 .franklin-content h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1.3px solid lightgrey;
   margin-top: 2em;
   margin-bottom: 1em;
 }
