@@ -19,7 +19,7 @@ this is another data science question I saw on twitter:
     <img src="/assets/ols-measurement-error/ryxcommar_ols_q.png">
 </div>
 <div style="text-align: center;">
-    <a href="https://twitter.com/ryxcommar/status/1551262675342045184" target="_blank" style="color:grey;">
+    <a href="https://twitter.com/ryxcommar/status/1551262675342045184" target="_blank" style="color:grey; font-size: 0.85em;">
         https://twitter.com/ryxcommar/status/1551262675342045184 (account privated as of writing)
     </a>
 </div>

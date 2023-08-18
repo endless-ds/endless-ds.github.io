@@ -19,6 +19,8 @@ random musings on topics like: data science, data engineering, finance, politica
   * 2023-07-13 [\underline{ how measurement error affects OLS }](/pages/2023-07-13-ols-measurement-error)
   * 2023-07-02 [\underline{ answering data science interview question using Monte Carlo: batting average }](/pages/2023-07-02-mc-batting-prob)
 
+* links:
+  * [Github](https://github.com/endless-ds)
 &#8287;
 
 ~~~
