@@ -92,13 +92,13 @@ _Python & Julia notebooks are available [here](https://github.com/vbartle/VMLS-C
 - A collection of n-vectors $a_1,a_2,...,a_k$ is **linearly independent** if $\sum_{i=1}^{k}\beta_ia_i = 0$ only holds up for $\beta_1 = \beta_2 = ... = \beta_k = 0$.
 - Like linear dependence, linear independence is an attribute of a _collection of vectors_, not individual vectors.
 - **Independence-dimension inequality**: A linearly independent collection of n-vectors can have at most $n$ elements.
-    - A collection of $n$ linearly independent n-vectors is called a **basis**.
+  - A collection of $n$ linearly independent n-vectors is called a **basis**.
 - A collection of n-vectors $a_1,a_2,...,a_k$ is **orthonormal** if each vector pair is orthogonal ($a_i \perp a_j$ for $i \neq j$) and $||a_i|| = 1$
 - **Gram-Schmidt algorithm** can be used to determine if a collection of vectors is linearly independent.
-    - It finds the first vector $a_j$ that is a linear combination of previous vectors $a_1,…, a_{j-1}$
-    - Step 1: _Orthogonalization_:  $\tilde{q_i} = a_i - (q^T_1 a_i)q_1 - … - (q^T_{i-1} a_i)q_{i-1}$
-    - Step 2: _Test for linear dependence_:  if $\tilde{q_i} = 0$ , quit.
-    - Step 3: _Normalization_: $q_i = \tilde{q_i}/||\tilde{q_i}||$
+  - It finds the first vector $a_j$ that is a linear combination of previous vectors $a_1,…, a_{j-1}$
+  - Step 1: _Orthogonalization_:  $\tilde{q_i} = a_i - (q^T_1 a_i)q_1 - … - (q^T_{i-1} a_i)q_{i-1}$
+  - Step 2: _Test for linear dependence_:  if $\tilde{q_i} = 0$ , quit.
+  - Step 3: _Normalization_: $q_i = \tilde{q_i}/||\tilde{q_i}||$
 
 ---
 ### ~~~<span style="background-color: #E9F3F7">Part II : Matrices</span>~~~

@@ -9,6 +9,12 @@
     ~~~<span style="color:black; font-size:22px"> {{title}} </span>~~~
 ](/)**
 
+~~~
+<div class="img-og">
+    <img src="/assets/endless header.jpg">
+</div>
+~~~
+
 random musings on topics like: data science, data engineering, finance, political economy, history, historiography, etc
 
 ---
