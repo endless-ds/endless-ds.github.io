@@ -22,6 +22,9 @@ random musings on topics like: data science, data engineering, finance, politica
 * book notes:
   * [\underline{ Vectors, Matrices, Least Squares by Boyd, Vanderberghe (2018) }](/pages/notes/vmls-boyd-vanderberghe-2018)
 
+* film writings:
+  * [\underline{ Memento (2000) }](/pages/film/memento)
+
 * some writings:
   * 2023-09-19 [\underline{ paper read: seven thoughts on running big money for the long-term by AQR (2009) }](/pages/2023-09-19-paper-read-AQR-seven-thoughts)
   * 2023-08-04 [\underline{ end of quarter tendency in IDX Composite index }](/pages/2023-08-04-eoq-tendency-IDX)
