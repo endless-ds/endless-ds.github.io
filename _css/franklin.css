@@ -16,6 +16,7 @@
 
 html {
   font-family: 'Consolas', Arial, sans-serif;
+  /* font-family: 'Courier New', Arial, sans-serif; */
   font-size: var(--normal);
   color: var(--text-color);
 }

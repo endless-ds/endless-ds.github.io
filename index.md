@@ -26,6 +26,7 @@ random musings on topics like: data science, data engineering, finance, politica
   * [\underline{ Memento (2000) }](/pages/film/memento)
 
 * some writings:
+  * 2023-12-22 [\underline{ black box models: who is it good for? }](/pages/2023-12-22-black-box-models-who-is-it-good-for)
   * 2023-09-19 [\underline{ paper read: seven thoughts on running big money for the long-term by AQR (2009) }](/pages/2023-09-19-paper-read-AQR-seven-thoughts)
   * 2023-08-04 [\underline{ end of quarter tendency in IDX Composite index }](/pages/2023-08-04-eoq-tendency-IDX)
   * 2023-07-15 [\underline{ a short cautionary tale when backtesting strategies }](/pages/2023-07-15-backtesting-tale)
@@ -34,6 +35,7 @@ random musings on topics like: data science, data engineering, finance, politica
 
 * links:
   * [Github](https://github.com/endless-ds)
+  * You can reach me at thisis [dot] endlessds [at] gmail [dot] com
 &#8287;
 
 ~~~
