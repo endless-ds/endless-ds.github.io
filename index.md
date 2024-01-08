@@ -26,6 +26,7 @@ random musings on topics like: data science, data engineering, finance, politica
   * [\underline{ Memento (2000) }](/pages/film/memento) -->
 
 some writings:
+  * 2024-01-08 [\underline{ a manifesto of sorts }](/pages/2024-01-08-a-manifesto-of-sorts)
   * 2023-12-30 [\underline{ if the market is efficient, why don’t i just bet on it? }](/pages/2023-12-30-if-market-efficient-why-dont-I-bet-on-it)
   * 2023-12-22 [\underline{ black box models: who is it good for? }](/pages/2023-12-22-black-box-models-who-is-it-good-for)
   * 2023-09-19 [\underline{ paper read: seven thoughts on running big money for the long-term by AQR (2009) }](/pages/2023-09-19-paper-read-AQR-seven-thoughts)
